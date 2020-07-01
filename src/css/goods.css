@@ -1,0 +1,118 @@
+.bigger{
+    width:100%;
+    height: 100%;
+  
+}
+/* 关于英雄、皮肤以及铭文  */
+.description{
+    width:100%;
+    height:100px;
+    /* background:darkblue; */
+    border-bottom:1px solid rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+}
+.description ul{
+    margin-top:60px;
+}
+.description ul>li{
+    width:124px;
+    height: 30px;
+    float: left;
+    line-height:19px;
+}
+.description ul>li>span{
+    text-align: center;
+    display: block;
+    color: black;
+}
+.description ul>li>em{
+    /* margin-top:5px; */
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+}
+/* 英雄 */
+.goodsHero{
+    width: 100%;
+    height: 142px;
+    margin-top:10px;
+    /* background: darkcyan; */
+}
+.goodsHero .ul1li1{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.goodsHero .ul1li1 a{
+    color: black;
+}
+.goodsHero .ul1li2{
+    float: right;
+    font-size: 12px;
+   
+}
+.goodsHero .ul1li2 a{
+    color:rgb(128, 128, 128);
+}
+/* 皮肤 */
+.face{
+    width:100%;
+    height: 200px;
+    margin-top:10px;
+    /* background:palegoldenrod; */
+}
+.face .ul1li1{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.face .ul1li1 a{
+    color: black;
+}
+.face .ul1li2{
+    float: right;
+    font-size: 12px;
+}
+.face .ul1li2 a{
+    color:rgb(128, 128, 128);
+}
+.goodsHero .ul2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.goodsHero .ul2 li img{
+    transform: scale(0.6);
+    height: 60px;
+}
+.goodsHero .ul2 li {
+    display: flex;
+    flex-direction: column;
+   font-size: 12px;
+   line-height: 5px;
+   color: black;
+}
+.line{
+    width: 100%;
+    height:10px;
+    background-color:#E0E0E0;
+}
+.face .ul2{
+    display: flex;
+    justify-content:space-between;
+}
+.face .ul2 li img{
+   width: 100%;
+   height: 80px;
+    padding: 5px;
+}
+.face .ul2 li {
+   display: flex;
+   flex-direction: column;
+   font-size: 12px;
+   line-height: 15px;
+   color: black;
+   
+  
+}

@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.chart{
+    width: 100%;
+    height: 256px;
+    padding: 40px 0 0 0;
+    /* border:1px solid darkblue; */
+    /* margin-top:8px; */
+    /* background: darkblue; */
+}
+.chart img{
+    width:100%;
+    height: 220px;
+}
+.btnparent{
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 0 10px 0;
+    background: white;
+    
+}
+.chartP{
+    color: rgb(255, 187, 0);
+}
+.chart button{
+    margin: 0 0 0 11%;
+    margin-top:5px;
+}
+.gains{
+    width:100%;
+    height: 100%;
+    margin: 8px 0 0 0;  
+    /* border:1px solid black; */
+    background: white;
+}
+.all{
+    font-size: 14px;
+    color:slategrey;
+    font-style: normal;
+}
+.all a{
+    display: inline;
+}
+.gainsad,.gainseye,.gainshelp{
+    font-size:16px;
+}
+.gains ul{
+    width:100%;
+    margin-top:10px;
+}
+.gains ul li{
+    width:100%;
+    height: 45px;
+    line-height: 0px;
+    list-style: none;
+    text-align: left;
+    padding: 0 10px 0 10px;
+    border-bottom:1px solid rgb(204, 204, 204);
+    background: white;
+}
+.gains ul li img{
+    width:40px;
+    height:40px;
+    border-radius:30%; 
+    float: left;
+}
+.gains a{
+    color:rgb(128, 128, 128);
+}
+.game{
+    width: 60%;
+    height: 40px;
+    float: left;
+}
+.resultTop{
+    width:100%;
+    height: 20px;
+    float: left;
+    display:block;
+}
+.resultTop i ,.resultTop em{
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    float: left;
+}
+.resultBottom{
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 0 20px;
+    float: left;
+    font-size: 14px;
+    display:block;
+    color:rgb(73, 73, 73)
+}
+.resultW{
+    margin:0 0 0 20px;
+    font-size: 16px;
+    font-style: normal;
+    color: rgb(100, 152, 248);
+
+}
+.resultD{
+    margin:0 0 0 20px;
+    /* margin-left:20px; */
+    font-size: 16px;
+    font-style: normal;
+    color: rgb(248, 6, 6);
+}
+.type{
+    margin-left:10px;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+}
+.gainsTime{
+    float: right;
+    color:slategrey;
+    font-size:14px;
+    margin:10px 0 0 0;
+}
+.gainsTime i{
+    font-size:14px;
+}

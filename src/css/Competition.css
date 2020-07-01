@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.warp{
+    /* height: 1000px; */
+    background: rgb(243, 235, 235);
+}
+.clear:after {
+	content: '';
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear:both;	
+}
+/* 头部 */
+.header{
+    width: 100%;
+    height: 660px;
+    padding-top: 65px;
+    background:url('../images/competion/king_b.jpg') no-repeat -10px 5px;
+    /* background-color: rgb(235, 227, 217); */
+}
+/* 视频 直播*/
+.live_streaming{
+    width: 94%;
+    height: 315px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow:0 3px 10px  rgb(156, 144, 144);
+    background:white;
+}
+/* 视频插件按钮重写 */
+.video-js .vjs-big-play-button{
+    width: 18%;
+    height: 22%;
+    top: 40%;
+    left: 41%;
+    border-radius: 50%;
+}
+.vjs-poster{
+        background-size: 100%;
+}
+.live_streaming>.ls_title{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 40px 0;
+    line-height: 40px;
+    text-align: center;
+}
+.live_streaming>.ls_video{
+    width: 100%;
+    height: 200px;
+    background: wheat;
+}
+/* 直播记录 ------------------------------------*/
+.record{
+    width: 94%;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    /* background: red; */
+    box-shadow:0 3px 10px  rgb(53, 50, 50);
+}
+.record>li{
+    list-style: none;
+    width: 45%;
+    height: 100%;
+    margin-left: 14px;
+    /* background: hotpink; */
+    float: left;
+}
+.record>li>h5{
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+.record>li>.vs{
+    width: 100%;
+    height:40px;
+    /* background:rebeccapurple; */
+
+}
+.record>li>.vs>li{
+    width: 33.3333333%;
+    height: 100%;
+    float: left;
+}
+.record>li>.vs>.clan_icon1{
+    background: url('../images/competion/we.png') no-repeat;
+    background-size: 100%;
+}
+.record>li>.vs>.clan_icon2{
+    background: url('../images/competion/we.png') no-repeat;
+    background-size: 100%;
+}
+.record>li>.vs>.clan_icon3{
+    background: url('../images/competion/we.png') no-repeat;
+    background-size: 100%;
+}
+.record>li>.vs>.clan_icon4{
+    background: url('../images/competion/we.png') no-repeat;
+    background-size: 100%;
+}
+.record>li>.c_data{
+    width: 100%;
+    height: 30px;
+}
+.record>li>.c_data>li{
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    /* color: blue; */
+}
+.record>li>.c_data>.subscription{
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 6px;
+    line-height: 32px;
+}
+.record>li>.vs>.vs_icon{
+    font-size: 25px;
+    color: aqua;
+    line-height: 40px;
+    text-align: center;
+}
+/* 中部小导航栏 ---------------------------------------*/
+.navigation_bar{
+    width: 94%;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    /* background: red; */
+    /* box-shadow:0 3px 10px  rgb(53, 50, 50); */
+}
+.navigation_bar>ul>li{
+    list-style: none;
+    width: 20%;
+    height: 80px;
+    margin-left: 4%;
+    /* background: hotpink; */
+    float: left;
+}
+.navigation_bar>ul>li>span{
+    display: block;
+    width: 67%;
+    margin: 0 auto;
+    border-radius: 35px;
+    height: 50px;
+}
+.navigation_bar>ul>li>p{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+}
+.navigation_bar>ul>li>.span1{
+    background: url('../images/competion/hiufang.jpg');
+    background-size: 100%;
+}
+.navigation_bar>ul>li>.span2{
+    background: url('../images/competion/jifen.jpg');
+    background-size: 100%;
+}
+.navigation_bar>ul>li>.span3{
+    background: url('../images/competion/goupiao.jpg');
+    background-size: 100%;
+}
+.navigation_bar>ul>li>.span4{
+    background: url('../images/competion/zhuwei.jpg');
+    background-size: 100%;
+}
+/* .navigation_bar>.nb_bar>li{
+    width: 45%;
+    height: 50%
+} */
+/* 主体 =--------------------------------------*/
+.main{
+    width: 94%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border-radius: 15px;
+    /* background: red; */
+}
+.mint-tab-container-item{
+    padding-top: 10px;
+}
+.mint-tab-item-label{
+    font-size: 12px;
+    color: darkorange;
+}
+/* 专题 */
+.subject{
+    width: 100%;
+    height:110px ;
+    border-bottom: 1px solid darkgray;
+    float: right;
+    /* margin: 2px 0; */
+    /* background: red; */
+}
+/* 内容 */
+.headline{
+    width: 75%;
+    height: 79px;
+    margin: 0;
+    padding: 18px 18px;
+    font-size: 20px;
+    color: black;
+    /* background: rebeccapurple; */
+    float: left;
+    text-indent:22px;
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+/* 文章信息 */
+.information{
+    width: 75%;
+    height: 25px;
+    float: left;
+    /* background: palegreen; */
+    
+}
+/* 作者，烂 */
+.information>li{
+    width: 33.3%;
+    height: 25px;
+    line-height: 27px;
+    text-align: left;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* background: darkorchid; */
+    float: left;
+}
+.mui-icon{
+    font-size: 16px;
+}
+.mui-icon-eye:before{
+    float: left;
+}
+.mui-icon-chat:before{
+    float: left
+}
+.watch{
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 0 0 0 24%;
+    text-align: left;
+    line-height: 28px;
+    color: rgb(245, 13, 233);
+}
+/* 视频预浏览 */
+.video_preview{
+    width: 25%;
+    height: 105px;
+    background: url(../images/competion/4.jpg) no-repeat;
+    background-size: auto 100%;
+    float: right;
+}
+/* .video_title{
+    width: 100%;
+    height: 50px;
+} */
+.video_t{
+    margin-top: 20px;
+    border-bottom: 1px solid red;
+}
+.information_t{
+    width: 100%;
+}
+/* 结尾留白 */
+.kongbai{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: url(../images/competion/wangzhegiulai.png) center;
+    background-size: 100% auto;
+}
+.vjs-custom-skin > .video-js .vjs-big-play-button{
+    width: 2em;
+    left: 55%;
+}

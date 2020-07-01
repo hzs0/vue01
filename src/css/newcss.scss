@@ -1,0 +1,44 @@
+// 推荐页轮播图焦点样式
+.mint-swipe-indicator.is-active {
+    opacity:1;
+    background-color:#fcac00;
+}
+
+//视频按钮样式
+
+// .video-js .vjs-big-play-button{
+//     /*
+//      播放按钮换成圆形
+//     */
+//     margin:0 50px 0 50px; 
+//     height: 2em;
+//     width: 2em;
+//     line-height: 2em;
+//     border-radius: 1em;
+//  }
+
+//  .vjs-custom-skin > .video-js .vjs-big-play{
+//      margin: 0 2rem 0 2rem !important;
+//  }
+
+// 新闻详情页样式
+.mint-header-title{
+    height: 14px;
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+}
+
+.hdbg .mint-header-title{
+    width: 200px;
+    position: absolute;
+    top:0px;
+    left: 50px;
+    margin: 13px 0px;
+    color: white;
+}
+
+.news-bottom a{
+    display: inline;
+}

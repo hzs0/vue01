@@ -1,0 +1,88 @@
+/* *{
+    touch-action: none  ;
+} */
+.headers{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    /* border:1px solid saddlebrown; */
+    z-index:10;
+}
+.header-bg{
+    width:100%;
+    height: 60px;
+    background-image: url('../images/topimg2.jpg');
+    background-repeat: no-repeat;
+    position:fixed;
+}
+.header-op{
+    width: 100%;
+    height: 20px;
+    position:absolute;
+    bottom:0px;
+    /* border: 1px solid saddlebrown; */
+    background-color: black;
+    opacity: 0.5;
+}
+.header-op p{
+    height: 20px;
+    margin: 0;
+    text-align: center;
+    line-height: 20px;
+}
+/* 切换战绩、表现以及物品的选项卡 */
+.Tab{
+    width:100%;
+    height: 40px;
+    border-bottom:1px solid rgb(204, 204, 204);  
+}
+.Tab ul{
+    width:100%;
+    height: 40px;
+}
+.son{
+    position: fixed;
+    background: white;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    z-index: 999;  
+    display: flex;
+    justify-content: space-around;
+}
+.Tab ul li{
+    width:30%;
+    height: 40px;
+    text-align: center;
+    /* line-height: 40px; */
+    font-size: 18px;
+    list-style: none;
+    float: left;
+}
+.son{
+    width: 100%;
+}
+.son a{
+    width:30%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: goldenrod;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* .son li{
+    width:30%;
+    height: 40px;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    list-style: none;
+} */
+.Tab ul li a{
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    /* padding: 0 0 40px 0; */
+    color: goldenrod;
+    text-decoration: none;
+}
